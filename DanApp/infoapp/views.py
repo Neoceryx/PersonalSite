@@ -5,3 +5,7 @@ from django.http import HttpResponse
 def home(request):
     return HttpResponse("Hello django")
     pass
+
+def index(request):
+    return render(request,"views/index.html",{})
+    pass
