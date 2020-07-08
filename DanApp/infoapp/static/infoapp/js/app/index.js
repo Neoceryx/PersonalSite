@@ -1,4 +1,4 @@
-var app = angular.module("App", []);
+var app = angular.module("App", ['pascalprecht.translate']);
 
 app.controller("AppCTRL", function ($scope) {
 
