@@ -26,7 +26,7 @@
 
 </head>
 
-<body>
+<body ng-app="App" ng-controller="AppCTRL">
 
   <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
 
@@ -77,11 +77,11 @@
 
         <div class="section-title">
           <h2>About</h2>
-          <p>I am a software developer with 3 years of experience, throughout my career I have been able to help solve different problems by creating digital tools to facilitate work processes and saving costs, mainly focused on the manufacturing sector, among the areas that I have participated are: :
-            Production lines
-            Warehouses
-            Human Resources
-            Sales          
+          <p>I am a software developer with 3 years of experience, throughout my career I have been able to help solve different problems by creating digital tools to facilitate work processes and saving costs, mainly focused on the manufacturing sector, among the areas that I have participated are:
+            Production lines,
+            Warehouses,
+            Human Resources,
+            Sales        
           </p>
         </div>
 
@@ -570,5 +570,11 @@
 <script src="{% static 'infoapp/vendor/typed.js/typed.min.js' %}"></script>
 <script src="{% static 'infoapp/vendor/aos/aos.js' %}"></script>
 
-<!-- Template Main JS File -->
+<!-- Template Animations JS File -->
 <script src="{% static 'infoapp/js/main.js' %}"></script>
+
+<!-- Angularjs -->
+<script src="/static/infoapp/js/angular.min.js"></script>
+
+<!-- Main Script js -->
+<script src="/static/infoapp/js/app/index.js"></script>
