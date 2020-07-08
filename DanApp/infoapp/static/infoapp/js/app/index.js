@@ -7,7 +7,5 @@ app.controller("AppCTRL", function ($scope) {
         console.log("Hi");
     })
     // Document on ready
-
-
     
 });
