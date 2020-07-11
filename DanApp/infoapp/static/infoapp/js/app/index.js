@@ -1,8 +1,11 @@
-var app = angular.module("App", ['pascalprecht.translate']);
+var app = angular.module("App", ['ngRoute','pascalprecht.translate']);
 
-// Translation Configuration
-app.config(function ($translateProvider) {
+app.config(function ($routeProvider,$translateProvider) {
     
+    $routeProvider.when("#!/",{
+        templateUrl :"/static/infoapp/js/app/SPA/index.html"
+    })
+
     // English
     $translateProvider.translations("en",{
         TEST:"hello"
@@ -12,7 +15,7 @@ app.config(function ($translateProvider) {
     $translateProvider.preferredLanguage('en');
 
 });
-// End Translation Configuration
+// End Configuration
 
 // Start Controller
 app.controller("AppCTRL", function ($scope, $translate) {
