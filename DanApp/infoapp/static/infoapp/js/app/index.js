@@ -2,7 +2,7 @@ var app = angular.module("App", ['ngRoute','pascalprecht.translate']);
 
 app.config(function ($routeProvider,$translateProvider) {
     
-    $routeProvider.when("#!/",{
+    $routeProvider.when("/",{
         templateUrl :"/static/infoapp/js/app/SPA/index.html"
     })
 
