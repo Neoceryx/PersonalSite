@@ -8,6 +8,12 @@ app.config(function ($routeProvider,$translateProvider) {
     });
     // End English
 
+    // Spanish
+    $translateProvider.translations("es",{
+        TEST:"En español"
+    });
+    // End Spanish
+
     $translateProvider.preferredLanguage('en');
 
 });
@@ -33,4 +39,8 @@ app.controller("AppCTRL", function ($scope, $translate) {
         REACT:50,        
     }
     
+    $scope.ChangeLanguage = function (languaje) {        
+        $translate.use(languaje);
+    }
+
 });
