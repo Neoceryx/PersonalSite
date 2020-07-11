@@ -1,6 +1,21 @@
 var app = angular.module("App", ['pascalprecht.translate']);
 
-app.controller("AppCTRL", function ($scope) {
+// Translation Configuration
+app.config(function ($translateProvider) {
+    
+    // English
+    $translateProvider.translations("en",{
+        TEST:"hello"
+    });
+    // End English
+
+    $translateProvider.preferredLanguage('en');
+
+});
+// End Translation Configuration
+
+// Start Controller
+app.controller("AppCTRL", function ($scope, $translate) {
 
     // Document on ready
     angular.element(document).ready(function () {
