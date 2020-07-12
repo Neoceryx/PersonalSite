@@ -4,13 +4,33 @@ app.config(function ($translateProvider) {
     
     // English
     $translateProvider.translations("en",{
-        ABOUT:"I am a software developer with 3 years of experience, throughout my career I have been able to help solve different problems by creating digital tools to facilitate work processes and saving costs, mainly focused on the manufacturing sector. through the areas of Production lines, Warehouses, Human Resources, Sales "
+        ABOUTTILE:"ABOUT",
+        ABOUT:"I am a software developer with 3 years of experience, throughout my career I have been able to help solve different problems by creating digital tools to facilitate work processes and saving costs, mainly focused on the manufacturing sector. through the areas of Warehouses, Human Resources, Sales and Production lines ",
+        PROFESSION:"Software engineer ",
+        Birthday:"Birthday",
+        BirthdayDate:'04 July 1993',
+        Phone:"Phone",
+        City:"City",
+        Age:"Age",
+        Degree:"Degree",
+        Studies:'Computer system engineer',
+        SKILLS:'Skills'
     });
     // End English
 
     // Spanish
     $translateProvider.translations("es",{
-        ABOUT:"Soy un desarrollador de software con 3 años de experiencia, a lo largo de mi carrera, he podido ayudar a resolver diferentes problemas principalmente enfocado al sector de manufactura, mediante la creación de herramientas digitales, para facilitar procesos de trabajo y ahorro de costos. Atreves de las áreas de Líneas de producción, Almacenes, RH y área de ventas"
+        ABOUTTILE:"Sobre mi",
+        ABOUT:"Soy un desarrollador de software con 3 años de experiencia, a lo largo de mi carrera, he podido ayudar a resolver diferentes problemas principalmente enfocados al sector de manufactura, mediante la creación de herramientas digitales, para facilitar procesos de trabajo y ahorro de costos. Atraves de las áreas de Almacenes, RH, ventas y líneas de producción,",
+        PROFESSION:"Ingeniero de software",
+        Birthday:"Fecha de nacimiento",
+        BirthdayDate:'04 Julio 1993',
+        Phone:"Telefono",
+        City:"Ciudad",
+        Age:"Edad",
+        Degree:"Titulo",
+        Studies:'ING. en sistemas computacionales',
+        SKILLS:'Habilidades'
     });
     // End Spanish
 
