@@ -1,6 +1,6 @@
-var app = angular.module("App", ['ngRoute','pascalprecht.translate']);
+var app = angular.module("App", ['pascalprecht.translate']);
 
-app.config(function ($routeProvider,$translateProvider) {
+app.config(function ($translateProvider) {
     
     // English
     $translateProvider.translations("en",{
