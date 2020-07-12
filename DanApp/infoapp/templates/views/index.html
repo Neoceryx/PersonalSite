@@ -37,9 +37,23 @@
       <div class="profile">
         <img src="{% static 'infoapp/img/81513121_1100273150312036_5411379010200403968_n.jpg' %}" style="width: 125px; height: 125px;"  alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Daniel Fierro</a></h1>
+
         <div class="social-links mt-3 text-center">
           <a href="https://www.linkedin.com/in/daniel-fierro-najera-5a973011b/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
           <a href="https://github.com/Neoceryx/" class="twitter"><i class='bx bxl-github'></i></a>
+        </div>
+
+        <div class="social-lins mt-3 text-center">
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+           
+            <label class="btn btn-sm btn-secondary active">
+              <input type="radio" ng-click="ChangeLanguage('en')" name="lang" id="">EN
+            </label>
+
+            <label class="btn btn-sm btn-secondary">
+              <input type="radio" ng-click="ChangeLanguage('es')" name="lang" id="">ES
+            </label>
+
         </div>
       </div>
 
@@ -76,11 +90,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>About</h2>     
-
-          <button type="button" ng-click="ChangeLanguage('en')">EN</button>  
-          <button type="button" ng-click="ChangeLanguage('es')">ES</button> 
-          
+          <h2>About</h2>              
         </div>
 
         <div class="row">
